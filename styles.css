@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+
+/*HEADER*/
+nav,
+.container-header,
+section {
+    width: 1000px;
+    margin: 0 auto;
+}
+header,
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 0 0;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: stretch; Para que ambos hijos ocupen toda la altura(opcional)*/
+    padding: 70px 0;
+    gap: 24px;
+}
+.content-text-header {
+    flex: 1;
+}
+.content-image {
+    background-color: grey;
+    flex: 1;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-header{
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 28px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+button {
+    border: none;
+}
