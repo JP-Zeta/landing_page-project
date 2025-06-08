@@ -162,3 +162,11 @@ article {
     margin-top: 16px;
     border: white 1px solid;
 }
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0;
+}
